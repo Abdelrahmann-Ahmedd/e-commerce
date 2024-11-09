@@ -1,0 +1,29 @@
+.card {
+    width: 18rem;
+}
+
+.card img {
+    width: 65%;
+    margin: auto;
+    height: 200px;
+}
+
+.box {
+    overflow: hidden;
+}
+
+.row .showBtn {
+    transform: translateY(100%);
+    transition: 0.2s all;
+}
+
+.box:hover .showBtn {
+    transform: translateY(-120%);
+}
+
+
+@media only screen and (max-width:767px) {
+    .card{
+        margin: auto;
+    }
+}

@@ -1,0 +1,30 @@
+.myForm {
+    width: 75%;
+}
+
+.resize {
+    width: 100%;
+}
+
+.resize .resizeItem {
+    width: 50%;
+}
+
+
+@media only screen and (max-width:766px) {
+    .myForm {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width:575px) {
+    .resize {
+        flex-direction: column;
+    }
+
+    .resize .resizeItem {
+        width: 100%;
+    }
+}
+
